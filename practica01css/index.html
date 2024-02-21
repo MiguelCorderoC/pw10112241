@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
     <title>Práctica 01 HTML + CSS</title>
 </head>
 
 <body>
     <header>
         <img src="img/resplandor.png" alt="">
-        <img src="img/logo.png" alt="logo">
+        <img src="img/logo.png" alt="logo" id="imgLogo">
         <nav>
             <ul>
                 <li>Inicio</li>
@@ -27,13 +28,16 @@
         </nav>
     </header>
 
-    <section>
-        <article><img src="img/slide2.jpg" alt="slide"></article>
+    <section id="scn01">
+        <article>
+            <img src="img/slide2.jpg" alt="slide">
+        </article>
     </section>
-    <section>
-        <article><img src="img/separador.jpg" alt="separador">
+    <section id="scn02">
+        <article>
+            <img src="img/separador.jpg" alt="separador">
             <br>
-            Una seccion
+            <span class="unaSeccion nito">Una seccion</span>
             <br>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero suscipit dolore rem alias repudiandae
             laboriosam, impedit neque fugit a perferendis expedita eos adipisci nulla officia voluptatum accusamus sequi
@@ -44,7 +48,7 @@
         <article>
             <img src="img/separador.jpg" alt="separador">
             <br>
-            Otra seccion
+            <span class="otraSeccion nito">Otra seccion</span>
             <br>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident reprehenderit aliquid perferendis
             in. Quasi a ea saepe ad voluptatum totam ipsam doloribus? Ipsum, libero blanditiis? Aliquam odio
@@ -58,7 +62,7 @@
         <article>
             <img src="img/separador.jpg" alt="">
             <br>
-            Un video
+            <span class="otraSeccion nito">Un video</span>
             <br>
             <img src="img/video.jpg" alt="">
         </article>
