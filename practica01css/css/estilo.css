@@ -1,16 +1,47 @@
 body {
-    border: 1px solid red;
-    font-size: 16px; /*1em*/
-    margin: 0px auto;
-    max-width: 1024px;
+  border: 1px solid red;
+  font-size: 16px; /*1em*/
+  margin: 0px auto;
+  max-width: 1024px;
 }
 
-header{
-    background: #D1E3EE;
+header {
+  background: #d1e3ee;
 }
 
-#imgLogo { /* ID del logo*/
-    margin-top: -150px;
+#imgLogo {
+  /* ID del logo*/
+  margin-top: -150px;
 }
 
+header nav {
+  background: #11aa;
+  width: 99%;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 2px 0px;
+}
 
+form {
+  float: right;
+  margin-top: -35px;
+  margin-right: 10px;
+}
+
+li {
+  color: white;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+input {
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.submit {
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+}
