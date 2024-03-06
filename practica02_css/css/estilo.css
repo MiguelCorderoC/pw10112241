@@ -80,3 +80,46 @@ header nav {
   bottom: 430px;
   left: -35px;
 }
+
+#terceraseccion article {
+  display: inline-block;
+  width: 23%;
+  vertical-align: top;
+}
+
+#terceraseccion article img {
+  vertical-align: middle;
+}
+
+#secc03art04 {
+  padding-top: 60px;
+}
+
+footer {
+  background-color: rgb(32, 92, 212);
+  color: white;
+}
+
+footer article {
+  display:inline-block;
+  width: 33%;
+}
+
+#html {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+footer #art01 {
+
+}
+
+footer #art02 {
+  text-align: center;
+}
+
+footer #art03 {
+  text-align: right;
+  margin-left: -40px;
+}
